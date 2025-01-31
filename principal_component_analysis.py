@@ -25,3 +25,9 @@ plt.xlabel('principal components')
 plt.ylabel('explained variability')
 plt.title('PCA')
 # %%
+pd.DataFrame(pca.explained_variance_ratio_).plot(kind='bar', legend=False)
+plt.xlabel('Principal Components')
+plt.ylabel('Explained Variability')
+plt.title('Explained Variance Ratio by Principal Component')
+plt.show()
+# %%
