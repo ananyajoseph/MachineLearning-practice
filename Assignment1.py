@@ -23,8 +23,7 @@ df.dtypes
 # checking the missing values
 df.isnull().sum()
 # There are no null values in the dataset
-# %%
-y=df.pop('quality')
+
 # %%
 scalar = StandardScaler()
 df_scaled = pd.DataFrame(scalar.fit_transform(df),
@@ -39,6 +38,7 @@ random_sample.head()
 #Stratified sampling - divides subgroups based on categorical feature. Randomly selects from each stratum in proportion of their occurence.
 df.columns = df.columns.str.strip()
 stratified_sample, _ = train_test_split(df, test_size=(150/ len(df)), stratify=df['quality'], random_state=21)
+stratified_sample.head()
 # %%
 # systematic sampling - ensures even distribution across the dataset
 #calculating ste size
