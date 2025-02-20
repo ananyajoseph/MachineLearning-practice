@@ -197,7 +197,7 @@ plt.show()
 # PCA does not necessarily preserve local structures or cluster separation, as it focuses only on variance.
 # Since PCA does not consider class separation, it may not be the best choice for classification tasks where complex, nonlinear relationships exist.
 
-#Unlike PCA, t-SNE is nonlinear
+# Unlike PCA, t-SNE is nonlinear
 # The plot shows a clear separation between clusters, meaning t-SNE has successfully identified patterns in the data.
 # There is a distinct cluster on the left, indicating a subgroup that is clearly different from the others.
 # t-SNE is better at visualizing clusters, making it useful for classification and identifying hidden patterns.
@@ -212,3 +212,4 @@ plt.show()
 # The dataset mainly has two groups: diabetic (1) and non-diabetic (0).
 # Some overlap suggests that diagnosing diabetes isn't always straightforward.
 # The features help separate the two groups
+# %%
