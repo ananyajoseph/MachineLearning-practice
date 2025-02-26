@@ -11,7 +11,6 @@ from sklearn.metrics import r2_score
 #%%
 df_boston = pd.read_csv('/Users/anany/OneDrive/Desktop/SEM2/6302-machine learning/boston.csv')
 
-
 # %%
 df_boston.drop('Unnamed: 0', inplace=True, axis=1)
 
