@@ -124,4 +124,3 @@ print("Training RMSE:", train_rmse)
 print("Test RMSE:", test_rmse)
 print("Training R-squared:", train_r2)
 print("Test R-squared:", test_r2)
-
